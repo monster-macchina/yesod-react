@@ -29,15 +29,15 @@ Initiate a normal build and start with 'npm run coldstart'
 Shorten build time when developing only React with 'npm run warmstart'
 
 All scripts in the package.json file:
-	"pre-build-1": "node ./parser_jsx.js",
-    "pre-build-2": "webpack",
-    "pre-build-3": "node ./parser_julius.js",
-    "pre-build": "npm run pre-build-1 && npm run pre-build-2 && npm run pre-build-3",
-    "build": "npm run pre-build && stack build",
-    "cleanbuild": "stack clean && npm run pre-build && stack build",
-    "start": "cd ..; yesod devel -p 3000; cd react",
-    "coldstart": "npm run build && npm run start;",
-    "warmstart": "npm run pre-build && npm run start;",
+* "pre-build-1": "node ./parser_jsx.js",
+* "pre-build-2": "webpack",
+* "pre-build-3": "node ./parser_julius.js",
+* "pre-build": "npm run pre-build-1 && npm run pre-build-2 && npm run pre-build-3",
+* "build": "npm run pre-build && stack build",
+* "cleanbuild": "stack clean && npm run pre-build && stack build",
+* "start": "cd ..; yesod devel -p 3000; cd react",
+* "coldstart": "npm run build && npm run start;",
+* "warmstart": "npm run pre-build && npm run start;",
 
 
 ## Haskell Setup
