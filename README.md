@@ -1,4 +1,4 @@
-## yesod-react
+## 🚀 yesod-react
 yesod with react
 
 
