@@ -22,7 +22,7 @@ Build React and Yesod with 'npm run build'
 
 Cleanbuild with 'npm run cleanbuild'
 
-Build only React with 'npm run pre-build'
+Build React only with 'npm run pre-build'
 
 Initiate a normal build and start with 'npm run coldstart'
 
